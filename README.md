@@ -10,8 +10,9 @@ cd auth0api
 npm i
 ```
 ### Run backend on the background
+```
 node src/index
-
+```
 ### Install frontend deps
 ```
 cd auth0client
