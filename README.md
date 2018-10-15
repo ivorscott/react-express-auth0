@@ -1,4 +1,4 @@
-# react-auth0-ts
+# react-auth0
 
 ### After cloning, move into this dir
 ```
