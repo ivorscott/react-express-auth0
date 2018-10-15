@@ -1,18 +1,23 @@
 # react-auth0-ts
 
-## after cloning, move into this dir
+### After cloning, move into this dir
+```
 cd react-auto0-ts
-
-## install backend deps
+```
+### Install backend deps
+```
 cd auth0api
 npm i
-
-## run backend on the background
+```
+### Run backend on the background
 node src/index
 
-## install frontend deps
+### Install frontend deps
+```
 cd auth0client
 npm i
-
-## run the frontend app
+```
+### Run the frontend app
+```
 npm start
+```
