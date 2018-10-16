@@ -1,0 +1,9 @@
+{
+  "test": {
+  },
+  "development": {
+    "jwksUri": "XXXXXXXXXXXXX",
+    "audience": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "issuer": "XXXXXXXXXXXXX"
+  }
+}

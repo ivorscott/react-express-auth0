@@ -1,9 +1,0 @@
-{
-  "test": {
-  },
-  "development": {
-    "jwksUri": "https://devpie.eu.auth0.com/.well-known/jwks.json",
-    "audience": "VU7BwQHJMEKXU6UjVQ6MzYzYtuetkkAv",
-    "issuer": "devpie.eu.auth0.com/"
-  }
-}
