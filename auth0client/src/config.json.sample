@@ -1,0 +1,8 @@
+{
+    domain: 'devpie.eu.auth0.com',
+    audience: `https://devpie.eu.auth0.com/userinfo`,
+    clientID: 'VU7BwQHJMEKXU6UjVQ6MzYzYtuetkkAv',
+    redirectUri: 'http://localhost:3000/callback',
+    responseType: 'token id_token',
+    scope: 'openid profile'
+}
