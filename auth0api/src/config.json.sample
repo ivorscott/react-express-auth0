@@ -1,4 +1,4 @@
 {
-    "domain": "devpie.eu.auth0.com",
-    "clientID": "VU7BwQHJMEKXU6UjVQ6MzYzYtuetkkAv"
+    "domain": "<YOUR_AUTH0_DOMAIN>",
+    "clientID": "<YOUR_AUTH0_CLIENT_ID>"
 }
