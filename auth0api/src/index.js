@@ -50,12 +50,12 @@ const checkJwt = jwt({
     cache: true,
     rateLimit: true,
     jwksRequestsPerMinute: 5,
-    jwksUri: config.jwksUri
+    jwksUri: `https://${config.domain}/.well-known/jwks.json`
   }),
 
   // Validate the audience and the issuer.
-  audience: config.audience,
-  issuer: config.issuer,
+  audience: config.clientID,
+  issuer: `https://${config.domain}/`,
   algorithms: ['RS256']
 });
 

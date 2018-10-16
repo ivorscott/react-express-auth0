@@ -1,9 +1,4 @@
 {
-  "test": {
-  },
-  "development": {
-    "jwksUri": "XXXXXXXXXXXXX",
-    "audience": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    "issuer": "XXXXXXXXXXXXX"
-  }
+    "domain": "devpie.eu.auth0.com",
+    "clientID": "VU7BwQHJMEKXU6UjVQ6MzYzYtuetkkAv"
 }
