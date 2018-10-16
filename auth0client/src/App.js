@@ -1,32 +1,23 @@
-import React, { Component } from 'react';
+cdimport React, { Component } from 'react';
 import {Route, withRouter} from 'react-router-dom';
-import './App.css';
-import NavBar from './NavBar';
-import Question from './Question';
-import Questions from './Questions';
-import Callback from './Callback';
-import NewQuestion from './NewQuestion';
-import SecuredRoute from './SecuredRoute';
 import auth0Client from './Auth';
-
+import NavBar from './NavBar/NavBar';
+import Question from './Question/Question';
+import Questions from './Questions/Questions';
+import Callback from './Callback';
+import NewQuestion from './NewQuestion/NewQuestion';
+import SecuredRoute from './SecuredRoute/SecuredRoute';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      checkingSession: true,
-    }
-  }
   async componentDidMount() {
     if (this.props.location.pathname === '/callback') return;
     try {
       await auth0Client.silentAuth();
-      this.forceUpdate(); // update current user
+      this.forceUpdate();
     } catch (err) {
       if (err.error === 'login_required') return;
       console.log(err.error);
     }
-    this.setState({checkingSession:false});
   }
 
   render() {
@@ -36,9 +27,7 @@ class App extends Component {
         <Route exact path='/' component={Questions}/>
         <Route exact path='/question/:questionId' component={Question}/>
         <Route exact path='/callback' component={Callback}/>
-        <SecuredRoute path='/new-question'
-                  component={NewQuestion}
-                  checkingSession={this.state.checkingSession} />
+        <SecuredRoute path='/new-question' component={NewQuestion} />
       </div>
     );
   }
