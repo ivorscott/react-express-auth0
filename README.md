@@ -1,6 +1,6 @@
 # react-auth0
 https://auth0.com/blog/react-tutorial-building-and-securing-your-first-app/
-### After cloning, move into this dir
+### After cloning, move into this directory
 ```
 cd react-auto0-ts
 ```
