@@ -1,4 +1,4 @@
-# react-auth0
+# react-express-auth0
 https://auth0.com/blog/react-tutorial-building-and-securing-your-first-app/
 
 You will need to rename config.json.sample to config.json in both the api and client folders and replace the placeholder text with the required secrets.
