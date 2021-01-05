@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "auth0-js": "^9.7.3",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router": "^4.3.1",
